@@ -1,0 +1,54 @@
+
+#wrap {
+	color:#000;
+}
+
+input.abc{
+	background-color: red;
+	line-height: inherit;
+}
+div.abc{
+	width: 10px;
+	height: 10px;
+	background: black;
+}
+
+div.global.abc{
+	background-color: red;
+}
+div.global.abc>div>div.cde{
+	color: red;
+}
+
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:1px;
+}
+
+#main {
+	float:left;
+	width:49%;
+	background:#9c9;
+}
+
+#sidebar {
+	float:right;
+	width:49%;
+	background:#c9c;
+}
+
+#content {
+	padding-bottom: 100%;
+	text-align:center;
+}
+
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding: 1px;
+}
+
